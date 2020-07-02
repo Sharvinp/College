@@ -5,6 +5,7 @@ using namespace std;
 const int m=50;
 
 class emp
+        
 {
         public:
                 int empno;

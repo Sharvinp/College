@@ -1,5 +1,4 @@
-//Write a program to add integers from 1, till we get addition less than or equal to 1000. 
-//Display sum and how many terms(integers) required.
+
 #include<iostream>
 #include<stdio.h>
 

@@ -1,0 +1,26 @@
+//Write a program to add integers from 1, till we get addition less than or equal to 1000. 
+//Display sum and how many terms(integers) required.
+#include<iostream>
+#include<stdio.h>
+
+using namespace std;
+
+int main()
+{
+    int sum = 0;
+    int i = 1;
+    while (sum<=1000)
+    {
+        i++;
+        sum+=i;
+    }
+
+    --i;
+    sum-=i;
+
+    cout<<"No of terms required are: "<<i<<endl;
+    cout<<"Addition is: "<<sum<<endl;
+
+    return 0;
+    
+}

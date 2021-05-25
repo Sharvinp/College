@@ -1,10 +1,13 @@
-#include<iostream>
-using namespace std;
-#include<Gl/glut.h>
-#include<math.h>
+#include <iostream>
+#include <stdlib.h>
+#include <GL/glut.h>
+#include <GL/gl.h>
+#include <math.h>
 #define w 500
 #define h 500
 #define max 50
+
+using namespace std;
 
 int win[4][2],k=0,flag=0,m=0,n=0,flag1=0,wino[4][2],flag2=0;
 int xmin,ymin,xmax,ymax;

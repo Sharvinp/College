@@ -1,9 +1,4 @@
-//Siddhant Kulkarni
-//SE IT 
-//Roll No: 9052 
-//DSA Lab Assignment 7 
-
-#include<iostream>
+ #include<iostream>
 using namespace std;
 
 // class for performing Prim's Algorithm
